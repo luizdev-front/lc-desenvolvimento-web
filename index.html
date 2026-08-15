@@ -1,1 +1,335 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="LC Luiz Claudio Desenvolvimento Web - Sites, Landing Pages e Suporte Técnico para computadores." />
+  <title>LC | Luiz Claudio Desenvolvimento Web</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
 
+<body>
+  <header class="header" id="inicio">
+    <div class="container nav">
+      <a class="brand" href="#inicio" aria-label="LC Desenvolvimento Web">
+        <img src="logo-lc.png" alt="LC Luiz Claudio Desenvolvimento Web" />
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">☰</button>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#servicos">Serviços</a>
+        <a href="#como-funciona">Como funciona</a>
+        <a href="#diferenciais">Diferenciais</a>
+        <a href="#contato" class="nav-cta">Solicitar orçamento</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-glow hero-glow-1"></div>
+      <div class="hero-glow hero-glow-2"></div>
+
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <span class="eyebrow">Sites • Landing Pages • Suporte Técnico</span>
+          <h1>
+            Sua presença digital com
+            <span>visual profissional</span>
+            e atendimento próximo.
+          </h1>
+
+          <p>
+            Criação de sites e landing pages para apresentar o seu negócio de forma moderna,
+            além de suporte técnico para computadores, notebooks e configurações em geral.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#servicos">Conhecer serviços</a>
+            <a
+              class="btn btn-secondary"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://wa.me/5513988799046?text=Olá%2C%20Luiz!%20Vi%20o%20site%20da%20LC%20Desenvolvimento%20Web%20e%20gostaria%20de%20solicitar%20um%20orçamento."
+            >
+              Falar no WhatsApp
+            </a>
+          </div>
+
+          <div class="hero-points">
+            <span>✓ Responsivo</span>
+            <span>✓ Visual moderno</span>
+            <span>✓ Atendimento direto</span>
+          </div>
+        </div>
+
+        <div class="hero-card reveal">
+          <div class="logo-panel">
+            <img src="logo-lc.png" alt="Logo LC" />
+          </div>
+
+          <div class="mini-cards">
+            <div class="mini-card">
+              <strong>Web</strong>
+              <span>Sites e landing pages</span>
+            </div>
+            <div class="mini-card">
+              <strong>Suporte</strong>
+              <span>Computadores e notebooks</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="servicos">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <span class="section-kicker">O que eu faço</span>
+            <h2>Serviços pensados para quem quer resolver.</h2>
+          </div>
+          <p>
+            Escolha uma categoria e veja os detalhes. Cada serviço pode ser adaptado
+            à necessidade do seu negócio ou computador.
+          </p>
+        </div>
+
+        <div class="service-filters reveal">
+          <button class="filter active" data-filter="all">Todos</button>
+          <button class="filter" data-filter="web">Criação de sites</button>
+          <button class="filter" data-filter="suporte">Suporte técnico</button>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card reveal" data-category="web">
+            <div class="service-icon">&lt;/&gt;</div>
+            <span class="service-tag">WEB</span>
+            <h3>Criação de Sites</h3>
+            <p>Sites modernos, responsivos e profissionais para apresentar sua empresa com credibilidade.</p>
+            <button class="service-details"
+              data-title="Criação de Sites"
+              data-description="Desenvolvimento de sites para empresas, profissionais e pequenos negócios."
+              data-items="Layout personalizado|Versão para celular, tablet e computador|Botões de contato e WhatsApp|Seções de serviços, sobre e contato|Orientação para publicação">
+              Ver detalhes →
+            </button>
+          </article>
+
+          <article class="service-card reveal" data-category="web">
+            <div class="service-icon">↗</div>
+            <span class="service-tag">WEB</span>
+            <h3>Landing Pages</h3>
+            <p>Páginas objetivas para divulgar um serviço, campanha ou produto e gerar mais contatos.</p>
+            <button class="service-details"
+              data-title="Landing Pages"
+              data-description="Página criada com foco em apresentar uma oferta de forma clara e levar o visitante ao contato."
+              data-items="Página focada em conversão|Chamada para ação destacada|Integração com WhatsApp|Visual pensado para seu público|Ideal para campanhas e redes sociais">
+              Ver detalhes →
+            </button>
+          </article>
+
+          <article class="service-card reveal" data-category="web">
+            <div class="service-icon">✦</div>
+            <span class="service-tag">WEB</span>
+            <h3>Templates Personalizados</h3>
+            <p>Modelos prontos adaptados para o estilo, identidade e necessidades do seu negócio.</p>
+            <button class="service-details"
+              data-title="Templates Personalizados"
+              data-description="Eu apresento modelos de site e personalizo o escolhido de acordo com o seu negócio."
+              data-items="Escolha de modelo|Adaptação de cores e identidade|Troca de textos e imagens|Ajustes de seções|Entrega pronta para publicação">
+              Ver detalhes →
+            </button>
+          </article>
+
+          <article class="service-card reveal" data-category="suporte">
+            <div class="service-icon">▣</div>
+            <span class="service-tag">SUPORTE</span>
+            <h3>Formatação</h3>
+            <p>Formatação e configuração do computador para deixar o sistema organizado e pronto para uso.</p>
+            <button class="service-details"
+              data-title="Formatação de Computadores"
+              data-description="Serviço de reinstalação e configuração do sistema conforme a necessidade."
+              data-items="Formatação do Windows|Instalação de drivers|Configuração inicial|Programas essenciais|Orientação após o serviço">
+              Ver detalhes →
+            </button>
+          </article>
+
+          <article class="service-card reveal" data-category="suporte">
+            <div class="service-icon">⚙</div>
+            <span class="service-tag">SUPORTE</span>
+            <h3>Suporte Técnico</h3>
+            <p>Ajuda com computadores e notebooks, de forma presencial ou remota conforme o caso.</p>
+            <button class="service-details"
+              data-title="Suporte Técnico"
+              data-description="Diagnóstico e suporte para problemas comuns de computadores, notebooks e periféricos."
+              data-items="Problemas no Windows|Instalação de programas|Configuração de impressoras|Drivers e periféricos|Apoio com rede e internet">
+              Ver detalhes →
+            </button>
+          </article>
+
+          <article class="service-card reveal" data-category="suporte">
+            <div class="service-icon">✓</div>
+            <span class="service-tag">SUPORTE</span>
+            <h3>Otimização e Backup</h3>
+            <p>Organização e ajustes para melhorar o uso do computador e proteger arquivos importantes.</p>
+            <button class="service-details"
+              data-title="Otimização e Backup"
+              data-description="Cuidados básicos para melhorar organização, desempenho e segurança dos arquivos."
+              data-items="Limpeza de programas desnecessários|Ajustes de inicialização|Organização de arquivos|Backup de documentos|Verificação básica de desempenho">
+              Ver detalhes →
+            </button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section dark" id="como-funciona">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <span class="section-kicker">Processo simples</span>
+            <h2>Do primeiro contato até a entrega.</h2>
+          </div>
+          <p>
+            Um atendimento direto, com entendimento da necessidade antes de passar o orçamento.
+          </p>
+        </div>
+
+        <div class="process-grid">
+          <div class="process-card reveal">
+            <span>01</span>
+            <h3>Contato</h3>
+            <p>Você me chama e explica o que precisa.</p>
+          </div>
+          <div class="process-card reveal">
+            <span>02</span>
+            <h3>Análise</h3>
+            <p>Entendo o serviço e apresento a melhor opção.</p>
+          </div>
+          <div class="process-card reveal">
+            <span>03</span>
+            <h3>Orçamento</h3>
+            <p>Passo o valor de forma clara antes de começar.</p>
+          </div>
+          <div class="process-card reveal">
+            <span>04</span>
+            <h3>Execução</h3>
+            <p>Desenvolvo o site ou realizo o suporte técnico.</p>
+          </div>
+          <div class="process-card reveal">
+            <span>05</span>
+            <h3>Entrega</h3>
+            <p>Finalizo, reviso e deixo tudo pronto para uso.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="diferenciais">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <span class="section-kicker">Por que escolher a LC</span>
+            <h2>Profissional sem complicação.</h2>
+          </div>
+          <p>
+            O foco é entregar um serviço bonito, funcional e fácil de entender.
+          </p>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature reveal">
+            <strong>01</strong>
+            <h3>Visual moderno</h3>
+            <p>Projetos com aparência profissional e adaptados para celular.</p>
+          </div>
+          <div class="feature reveal">
+            <strong>02</strong>
+            <h3>Atendimento direto</h3>
+            <p>Contato comigo do início ao fim, sem burocracia desnecessária.</p>
+          </div>
+          <div class="feature reveal">
+            <strong>03</strong>
+            <h3>Orçamento claro</h3>
+            <p>Você entende o serviço antes de fechar.</p>
+          </div>
+          <div class="feature reveal">
+            <strong>04</strong>
+            <h3>Soluções práticas</h3>
+            <p>Seja no site ou no computador, o objetivo é resolver.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contato">
+      <div class="container">
+        <div class="contact-card reveal">
+          <div>
+            <span class="section-kicker">Vamos conversar?</span>
+            <h2>Seu próximo site pode começar agora.</h2>
+            <p>
+              Conte o que você precisa e eu preparo uma opção de serviço e orçamento.
+            </p>
+          </div>
+
+          <div class="contact-actions">
+            <a
+              class="btn btn-primary"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://wa.me/5513988799046?text=Olá%2C%20Luiz!%20Gostaria%20de%20solicitar%20um%20orçamento."
+            >
+              Chamar no WhatsApp
+            </a>
+            <span>(13) 98879-9046</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <img src="logo-lc.png" alt="LC Luiz Claudio Desenvolvimento Web" />
+      </div>
+      <div>
+        <strong>LC – Luiz Claudio Desenvolvimento Web</strong>
+        <p>Sites • Landing Pages • Suporte Técnico</p>
+      </div>
+      <div class="footer-copy">
+        <span id="year"></span> © Todos os direitos reservados.
+      </div>
+    </div>
+  </footer>
+
+  <a
+    class="whatsapp-float"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Falar no WhatsApp"
+    href="https://wa.me/5513988799046?text=Olá%2C%20Luiz!%20Vi%20o%20site%20da%20LC%20Desenvolvimento%20Web%20e%20gostaria%20de%20solicitar%20um%20orçamento."
+  >
+    <span class="wa-icon">☎</span>
+    <span class="wa-text">WhatsApp</span>
+  </a>
+
+  <div class="modal" id="serviceModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" data-close-modal aria-label="Fechar">×</button>
+      <span class="modal-label">DETALHES DO SERVIÇO</span>
+      <h3 id="modalTitle"></h3>
+      <p id="modalDescription"></p>
+      <ul id="modalList"></ul>
+      <a id="modalWhatsapp" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+        Pedir orçamento
+      </a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
